@@ -1,0 +1,100 @@
+/*!
+ *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+ * -------------------------- */
+ @font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+    src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+/* Base CSS */
+.alignleft{
+    float: left;
+    margin-right: 15px;
+}
+.alignright{
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter{
+    display: block;
+    margin: 0 auto 15px;
+}
+body{
+    /* font-family: 'Playfair Display', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif; */
+    
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.714;
+    color: #626262;
+}
+h1,h2,h3,h4,h5,h6{
+    margin:0 0 15px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a, a:hover{
+    text-decoration: none;
+}
+a:focus{
+    outline: 0 solid;
+}
+input:focus, a:focus,button:focus,textarea:focus{
+    outline: none;
+}
+.pa-t-b{
+    padding: 30px 0 80px 0;
+}
+.cg{
+    color: #04af4e;
+    font-weight: 700;
+}
+/* js-project-11 # 30/3/2020 10:09 am Start */
+.bg-zavir{
+    background: #f05123;
+background: -moz-linear-gradient(top,  hsla(13,87%,54%,1) 0%, hsla(54,100%,70%,1) 100%);
+background: -webkit-linear-gradient(top,  hsla(13,87%,54%,1) 0%,hsla(54,100%,70%,1) 100%);
+background: linear-gradient(to bottom,  hsla(13,87%,54%,1) 0%,hsla(54,100%,70%,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f05123', endColorstr='#ffef68',GradientType=0 );
+
+}
+
+.single-task{
+    min-height: 75px;
+    padding: 5px;
+    background:salmon;
+    position: relative;
+    margin-bottom: 10px;
+}
+.task-control-panel{
+    width:100%;
+    min-height: 40px;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0;
+    bottom:0;
+}
+.color-circle{
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.inner-textarea{
+    resize: none;
+    position: absolute;
+    background: #ddd;
+    box-shadow: 0px, 4px, 8px rgba(0, 0, 0, 0.35);
+    top:0;
+    left:0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 5px;
+}

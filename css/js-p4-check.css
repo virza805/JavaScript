@@ -1,0 +1,90 @@
+/*!
+ *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+ * -------------------------- */
+ @font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+    src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+/* Base CSS */
+.alignleft{
+    float: left;
+    margin-right: 15px;
+}
+.alignright{
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter{
+    display: block;
+    margin: 0 auto 15px;
+}
+body{
+    /* font-family: 'Playfair Display', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif; */
+    
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.714;
+    color: #626262;
+}
+h1,h2,h3,h4,h5,h6{
+    margin:0 0 15px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a, a:hover{
+    text-decoration: none;
+}
+a:focus{
+    outline: 0 solid;
+}
+input:focus, a:focus,button:focus,textarea:focus{
+    outline: none;
+}
+ul{
+    list-style: none;
+}
+.pa-t-b{
+    padding: 80px 0;
+}
+.cg{
+    color: #04af4e;
+    font-weight: 700;
+}
+.bg-virza{
+    background: #761f57;
+    background: -moz-linear-gradient(left,  hsla(321,58%,29%,1) 0%, hsla(208,78%,27%,1) 100%);
+    background: -webkit-linear-gradient(left,  hsla(321,58%,29%,1) 0%,hsla(208,78%,27%,1) 100%);
+    background: linear-gradient(to right,  hsla(321,58%,29%,1) 0%,hsla(208,78%,27%,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#761f57', endColorstr='#0f4779',GradientType=1 );
+
+}
+/* js-project-3-promise-api # 28/3/2020 3:03 pm Start */
+.tbg{
+    background-color: #fff;
+    margin:0 auto;
+    width: 400px;
+}
+.tbg thead tr th{
+    padding:20px;
+    font-size: 20px;
+}
+.tbg tbody tr th, .tbg tbody tr td{
+    padding:10px;
+    font-size: 20px;
+    text-align: left;
+}
+.tbg tbody tr th{
+    padding-left: 30px;
+}
+/* js-project-3-promise-api # 28/3/2020 3:03 pm End */
+

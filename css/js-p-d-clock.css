@@ -1,0 +1,98 @@
+/*!
+ *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+ * -------------------------- */
+ @font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+    src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+/* Base CSS */
+.alignleft{
+    float: left;
+    margin-right: 15px;
+}
+.alignright{
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter{
+    display: block;
+    margin: 0 auto 15px;
+}
+body{
+    /* font-family: 'Playfair Display', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif; */
+    
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.714;
+    color: #626262;
+}
+h1,h2,h3,h4,h5,h6{
+    margin:0 0 15px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a, a:hover{
+    text-decoration: none;
+}
+a:focus{
+    outline: 0 solid;
+}
+input:focus, a:focus,button:focus,textarea:focus{
+    outline: none;
+}
+ul{
+    list-style: none;
+}
+.pa-t-b{
+    padding: 80px 0;
+}
+.cg{
+    color: #eb410e;
+    font-weight: 700;
+}
+/* js-project Digital Clock leftSide # 27/3/2020 9:55 pm Start */
+.clock-left{
+    position: relative;
+}
+.llock {
+    background: black;
+}
+
+.clock {
+    position: absolute;
+    /* top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%); */
+    color: #17D4FE;
+    font-size: 60px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+}
+/* js-project Digital Clock leftSide # 27/3/2020 9:55 pm End */
+
+/* js-project Digital Clock rightSide # 27/3/2020 9:55 pm Start */
+.clock-right{
+    position: relative;
+}
+.clock-right h1{
+    background-color: #056cb5;
+    display:inline-block;
+    padding:20px;
+    color:#fff;
+    font-family: 'radioland';
+    font-size:80px;
+    text-align: center;
+    width:500px;
+    margin: 100px 0;
+}
+/* js-project Digital Clock rightSide # 27/3/2020 9:55 pm End */

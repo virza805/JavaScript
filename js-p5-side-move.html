@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>JS-Project</title>
+    <link rel="icon" href="img/vir.png">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|PT+Serif:400,400i,700,700i|Playfair+Display:400,400i,700,700i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+    <!-- font -->
+    
+    <!-- <script src="js-project/js-p5-side-move.js" ></script>
+    <link rel="stylesheet" href="css/js-p5-img-side-move.css"> -->
+  </head>
+  <body>
+
+<!-- js-project-5 img move-side # 28/3/2020 11:07pm Start -->
+
+<section class="pa-t-b bg-virza">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center text-light">
+        <h1>JavaScript-project-5 img move-side</h1>
+        <img src="img/vir.png" class="m-4" alt="">
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-12 text-left">
+        <div class="site-wrap">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis natus dolorem nam ipsam possimus dignissimos voluptatem? Explicabo, dolore expedita? Saepe <img src="img/tanvir-.png" class="slide-in align-right" alt="tanvir"> officiis dicta eligendi obcaecati id, soluta error libero quod iste? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore ut, recusandae ex doloremque at atque dolorem officia quis neque quam voluptatibus non dignissimos obcaecati nam magnam! Expedita ratione hic alias?</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, iste. Iusto beatae ratione doloremque reprehenderit obcaecati exercitationem dignissimos dolore at tempore dolores impedit, ex, placeat unde. Non totam quisquam culpa? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore animi nobis cum quisquam distinctio voluptatem labore asperiores nisi recusandae inventore eligendi soluta, praesentium, vero perferendis quis <img src="img/love.jpg" alt="" class="slide-in text-right align-right"> repellendus. Amet, odio itaqueLorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, iste. Iusto beatae ratione doloremque reprehenderit obcaecati exercitationem dignissimos dolore at tempore dolores impedit, ex, placeat unde. Non totam quisquam culpa? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore animi nobis cum quisquam distinctio voluptatem labore asperiores nisi recusandae inventore eligendi soluta, praesentium, vero perferendis quis repellendus. Amet, odio itaque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis natus dolorem nam ipsam possimus dignissimos voluptatem? Explicabo, dolore expedita? Saepe <img src="img/vir.png" class="slide-in text-left align-left" alt="tanvir"> officiis dicta eligendi obcaecati id, soluta error libero quod iste? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore ut, recusandae ex doloremque at atque dolorem officia quis neque quam voluptatibus non dignissimos obcaecati nam magnam! Expedita ratione hic alias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, obcaecati facilis sit voluptatibus error assumenda voluptate sapiente nulla a maxime ipsa alias harum, dolorem accusantium qui veniam voluptatum, itaque nisi!
+        </p>
+        
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, iste. Iusto beatae ratione doloremque reprehenderit obcaecati exercitationem dignissimos dolore at tempore dolores impedit, ex, placeat unde. Non totam <img src="img/love.jpg" alt="" class="slide-in text-right align-right"> quisquam culpa? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore animi nobis cum quisquam distinctio voluptatem labore asperiores nisi recusandae inventore eligendi soluta, praesentium, vero perferendis quis repellendus. Amet, odio itaque.</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, iste. Iusto beatae ratione doloremque reprehenderit obcaecati exercitationem dignissimos dolore at tempore dolores impedit, ex, placeat unde. Non totam quisquam culpa? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore animi nobis cum quisquam distinctio voluptatem labore asperiores nisi recusandae inventore eligendi soluta, praesentium, vero perferendis quis <img src="img/Tanvir_Hasan.jpg" alt="" class="slide-in text-right align-left"> repellendus. Amet, odio itaqueLorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, iste. Iusto beatae ratione doloremque reprehenderit obcaecati exercitationem dignissimos dolore at tempore dolores impedit, ex, placeat unde. Non totam quisquam culpa? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore animi nobis cum quisquam distinctio voluptatem labore asperiores nisi recusandae inventore eligendi soluta, praesentium, vero perferendis quis repellendus. Amet, odio itaque.</p>
+
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+<script src="js-project/js-p5-side-move.js" ></script>
+<link rel="stylesheet" href="css/js-p5-img-side-move.css">
+<!-- <script>
+ function debunce(func, wait = 20 , immediate = true){
+    var timeout;
+    return function(){
+        var context = this, args = arguments;
+        var later = function(){
+            timeout = null;
+            if(!immediate) func.apply(context, args);
+        };
+        var callNow = immediate && !timeout;
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+        if(callNow) func.apply(context, args);
+    };
+}
+
+const sliderImages = document.querySelectorAll('.slide-in');
+
+function checkSlide(e){
+    sliderImages.forEach(sliderImage => {
+        // half way through the image
+        const slideInAt = (window.scrollY + window.innerHeight) - sliderImage.height/2;
+        //bottom of the image
+        const imageBottom = sliderImage.offsetTop + sliderImage.height;
+        const isHalfShow = slideInAt > sliderImage.offsetTop;
+        const isNotScrolledPast = window.scrollY < imageBottom;
+        if(isHalfShow && isNotScrolledPast){
+            sliderImage.classList.add('active');
+
+        }else{
+            sliderImage.classList.remove('active');
+        }
+    });
+}
+
+window.addEventListener('scroll', debunce(checkSlide));
+ 
+</script>
+
+<style>
+  .pa-t-b{
+    padding: 80px 0;
+}
+.cg{
+    color: #04af4e;
+    font-weight: 700;
+}
+.bg-virza{
+    background: #761f57;
+    background: -moz-linear-gradient(left,  hsla(321,58%,29%,1) 0%, hsla(208,78%,27%,1) 100%);
+    background: -webkit-linear-gradient(left,  hsla(321,58%,29%,1) 0%,hsla(208,78%,27%,1) 100%);
+    background: linear-gradient(to right,  hsla(321,58%,29%,1) 0%,hsla(208,78%,27%,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#761f57', endColorstr='#0f4779',GradientType=1 );
+
+    color: #fff;
+}
+/* js-project-5 img move-side # 28/3/2020 11:07 pm Start */
+html{
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: 300;
+}
+body{margin:0;}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+.site-wrap{
+    max-width:700px;
+    margin:100px auto;
+    background-color: #000000;
+    padding:40px;
+    text-align: justify;
+}
+.align-left{
+    float: left;
+    margin-right: 20px;
+}
+.align-right{
+    float: right;
+    margin-left: 20px;
+}
+.slide-in{
+    opacity: 0;
+    transition: all .5s;
+}
+
+.align-left.slide-in{
+    transform:translateX(-30%) scale(0.95);
+}
+.align-right.slide-in{
+    transform:translateX(30%) scale(0.95);
+}
+.slide-in.active{
+    opacity: 1;
+    transform:translateX(0%) scale(1);
+}
+</style> -->
+<!-- js-project-5 img move-side  # 28/3/2020 3:00 pm End -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js-project/jquery-3.3.1.min.js" ></script>
+    <script src="js-project/popper.min.js"></script>
+    <script src="js-project/bootstrap.min.js" ></script>
+  </body>
+</html>
